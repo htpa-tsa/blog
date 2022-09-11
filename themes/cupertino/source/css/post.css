@@ -29,10 +29,9 @@ body {
 }
 
 .content {
-  font-size: 19px;
-  line-height: 1.4211;
+  font-size: 15px;
+  line-height: 1.725;
   font-weight: 400;
-  letter-spacing: 0.012em;
 }
 
 .content p,
@@ -46,14 +45,12 @@ body {
 .meta .date,
 .content figure,
 /* only `.content>pre`, do not include <pre /> in <figure /> */
-.content>pre,
-.divider,
+.content > pre,
 .container,
 hr,
 .meta .title,
 .toc,
 .content blockquote,
-.content table,
 .content video,
 .content ul,
 .content ol,
@@ -63,7 +60,8 @@ hr,
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 16px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .content p img,
@@ -140,6 +138,7 @@ hr,
   background-color: var(--card-bg);
   border-radius: 15px;
   max-width: calc(800px - 16px * 2);
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -211,7 +210,7 @@ hr,
 }
 
 .about p {
-    margin: 0.5rem 0;
+    margin: 1rem 0 0 0;
 }
 
 .content h1 > .headerlink,
@@ -270,4 +269,14 @@ hr,
 
 .content > h6 {
   font-size: 14px;
+}
+
+.content p > code {
+    font-size: 15px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 12px;
 }

@@ -31,21 +31,18 @@ Other distros of Linux include but are not limited to:
 
 ### The Command-line Interface and Shell
 
-![Kali's Terminal](/asset/linux-101/terminal.png)
-
-<p align="center">
-<sub>Kali's Terminal</sub>
-</p>
+<figure>
+    <img src="/asset/linux-101/terminal.png" alt="Kali's Terminal">
+    <figcaption>Kali's Terminal</figcaption>
+</figure>
 
 The terminal is a **command-line interface** (in contrast to a graphical user interface, or GUI) that takes the user input and runs it through a **shell**. A shell is a software which allows both human users and other programs to interact with OS services. It is essentially the most important software in a UNIX-style OS. In most Linux flavors the default shell is titled **bash**, which is the most popular. However, the newer versions of Kali use **z-shell**, typically shortened to **zsh**. Think of this terminal as a line-by-line version of a file navigation/explorer:
 
-![windows Explorer](/asset/linux-101/windows-explorer.png)
-
-![Linux `ls` command](/asset/linux-101/linux-ls.png)
-
-<p align="center">
-<sub>Windows GUI File Explorer vs. Webshell CLI <code>ls -al</code> command</sub>
-</p>
+<figure>
+    <img src="/asset/linux-101/windows-explorer.png" alt="Windows Explorer">
+    <img src="/asset/linux-101/linux-ls.png" alt="Linux ls command">
+    <figcaption>Windows GUI File Explorer vs. Webshell CLI <code>ls -al</code> command</figcaption>
+</figure>
 
 ***
 

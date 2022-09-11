@@ -1,4 +1,6 @@
 ---
 title: Members
-date: 2022-09-08 22:58:28
+permalink: /members/
+layout: page
+about: false
 ---
