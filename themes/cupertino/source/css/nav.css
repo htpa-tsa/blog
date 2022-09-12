@@ -112,6 +112,10 @@ body[data-color-scheme="auto"] nav .nav-item-search, body[data-color-scheme="lig
     background-image: url(/theme-img/search-dark.svg);
 }
 
+body[data-color-scheme="auto"] nav .nav-item-remind, body[data-color-scheme="light"] nav .nav-item-remind {
+    background-image: url(/theme-img/remind-logo-black.png);
+}
+
 @media (prefers-color-scheme: dark) {
     body[data-color-scheme="auto"] nav .nav-item-github {
         background-image: url(/theme-img/github-mark-light.png);
@@ -130,6 +134,9 @@ body[data-color-scheme="auto"] nav .nav-item-search, body[data-color-scheme="lig
     }
     body[data-color-scheme="auto"] nav .nav-item-search {
         background-image: url(/theme-img/search-light.svg);
+    }
+    body[data-color-scheme="auto"] nav .nav-item-remind {
+        background-image: url(/theme-img/remind-logo-white.png);
     }
 }
 
@@ -155,6 +162,10 @@ body[data-color-scheme="dark"] nav .nav-item-discord {
 
 body[data-color-scheme="dark"] nav .nav-item-search {
     background-image: url(/theme-img/search-light.svg);
+}
+
+body[data-color-scheme="dark"] nav .nav-item-remind {
+    background-image: url(/theme-img/remind-logo-white.png);
 }
 
 @media screen and (max-width: 600px) {

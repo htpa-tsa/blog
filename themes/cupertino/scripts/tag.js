@@ -74,3 +74,9 @@ let hljs = require('highlight.js');
     ends: true,
     async: true
 });
+
+hexo.extend.tag.register('fontawesome', function () {
+    return `<script src="https://kit.fontawesome.com/129342a70b.js" crossorigin="anonymous"></script>`;
+}, {
+    async: true
+});

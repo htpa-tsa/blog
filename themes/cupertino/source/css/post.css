@@ -79,7 +79,7 @@ hr,
   border-collapse: collapse;
   border-radius: 15px;
   max-width: 800px;
-  overflow-x: auto;
+  margin: auto;
 }
 
 .content table tr {

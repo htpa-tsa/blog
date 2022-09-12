@@ -4,7 +4,7 @@
 }
 
 .card-grid {
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
     padding: 0 16px;
 }
@@ -27,12 +27,22 @@
     }
 }
 
+.emphasis {
+    border-radius: 16px;
+    background-color: var(--card-bg);    
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
 .card {
     overflow: hidden;
     border-radius: 16px;
     background-color: var(--card-bg);
-    margin-bottom: 21px;
+    margin-bottom: 2rem;
     transition: all 200ms ease;
+    height: 415px;
 }
 
 .card:nth-child(3n-2) {
@@ -185,4 +195,14 @@
 
 .text-capitalize {
     text-transform: capitalize;
+}
+
+.flex-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+    max-width: 800px;
+    gap: 2rem;
+    padding: 1rem 0;
 }
