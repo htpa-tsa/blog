@@ -1,12 +1,14 @@
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.card-grid {
     max-width: 800px;
     margin: auto;
     padding: 0 16px;
+}
+
+.card-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,7 +44,7 @@
     background-color: var(--card-bg);
     margin-bottom: 2rem;
     transition: all 200ms ease;
-    height: 415px;
+
 }
 
 .card:nth-child(3n-2) {
@@ -102,14 +104,14 @@
 
 .card .title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--black);
     text-decoration: none;
     padding: 0;
 }
 
 .card .description {
-    font-size: 17px;
+    font-size: 15px;
     color: var(--black-1);
     padding: 0;
 }
@@ -153,7 +155,6 @@
     border: 2px solid var(--color);
     color: var(--color);
     padding: 0 8px;
-    margin: 0 6px;
     border-radius: 24px;
 }
 

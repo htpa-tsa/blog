@@ -9,10 +9,10 @@ cover_image: /asset/linux-101/thumbnail-3.jpg
 
 **Always remember**: If you have no idea how to use a command type either:
 
-{% ccb lang:bash %}
+```bash
 man your_command # RUNS THE MAN COMMAND
 your_command --help # RUNS THE COMMAND WITH A HELP FLAG
-{% endccb %}
+```
 
 ### Essential Commands
 
@@ -22,22 +22,22 @@ Here are the most common and important commands that you should memorize if you 
 
 `echo` - When used alone, this command will repeat your argument, which could be a string or an environmental variable (i.e. `$USER`. You can also echo "into" files with the `>` operator, which will write your string into the file argued after the operator:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ echo "Hello" # ECHOES STRING
 Hello
-{% endccb %}
+```
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ touch hello.txt # CREATES FILE
 user@host:~$ echo "Hello" > hello.txt
 user@host:~$ cat hello.txt # READS FILE
 Hello
-{% endccb %}
+```
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ echo $USER # ECHOES ENVIRONMENTAL VARIABLE
 user
-{% endccb %}
+```
 
 **Important**: Mind that `>` and `>>` are two different terminal operators. Using only `>` can remove all code/text from a file and replace it with your string. On the other hand, using `>>` can add whatever phrase you’ve inputted and still keep the code/text within your file.
 
@@ -45,7 +45,7 @@ user
 
 `ls` - lists the files within the current directory. To make ls more useful, refer to the `man` page and add the necessary flags.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ ls -al # USES -A and -L FLAGS
 total 28
 drwxr-xr-x 6 user user  199 Feb  7 22:44 .
@@ -60,7 +60,7 @@ drwxrwxr-x 3 user user   19 Feb  7 22:44 .local
 -rw-r--r-- 1 user user  807 Jul 21  2021 .profile
 -rw-rw-r-- 1 user user  215 Feb 11 18:28 .wget-hsts
 -rw-r--r-- 1 root root 4448 Feb 15 01:58 README.txt
-{% endccb %}
+```
 
 Don't worry about the `drwxrwxr-x` gibberish; we'll go through that very soon!
 
@@ -68,10 +68,10 @@ Don't worry about the `drwxrwxr-x` gibberish; we'll go through that very soon!
 
 `cat` - cat is a command that allows you to view the contents of a file through the terminal.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ cat hello.txt
 Hello # ASSUMING hello.txt HAS "Hello"
-{% endccb %}
+```
 
 **Important**: Note that you would have to specify the file extension (.txt, .py, etc.) in order to open the file in some graphical text editors/applications.
 
@@ -79,11 +79,11 @@ Hello # ASSUMING hello.txt HAS "Hello"
 
 `touch` - allows you to create files within the current directory.
 
-{% ccb lang:bash %}
+```bash
 user@host:~/test$ touch hello.txt
 user@host:~/test$ ls -al
 hello.txt
-{% endccb %}
+```
 
 **Important**: Note that you would have to specify the file extension (.txt, .py, etc.) in order to open the file in some graphical text editors/applications.
 
@@ -91,7 +91,7 @@ hello.txt
 
 `cd` - stands for “change directory”. This is the primary means of navigation through directories in the terminal.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ cd test # ENTER TEST SUBDIRECTORY
 user@host:~/test$ cd .. # ENTER PARENT FOLDER (~)
 user@host:~$ cd .. # ENTER PARENT FOLDER (/home)
@@ -99,13 +99,13 @@ user@host:/home$ cd .. # ENTER PARENT FOLDER (/)
 user@host:/$ cd ~ # ENTER DEFAULT FOLDER (~)
 user@host:~$ cd /bin # ENTER BIN, ROOT FOLDER (/bin)
 user@host:/bin$ █
-{% endccb %}
+```
 
 If you’re having trouble visualizing the process, imagine this directory:
 
-{% ccb lang:text %}
+```text
 /home/user/Desktop/test
-{% endccb %}
+```
 
 If you wanted to move "forwards" (towards the right) with `user` as your PWD, run `cd Desktop`.  
 If you wanted to move "backwards" (towards the left) with `user` as your PWD, run `cd /home`.
@@ -114,20 +114,20 @@ If you wanted to move "backwards" (towards the left) with `user` as your PWD, ru
 
 `mkdir` - (shorthand for “make directory”) allows you to create a directory folder. To avoid issues, don’t create a directory beginning with /, or one that includes spaces. Stick to alphanumeric characters!
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ mkdir test
 user@host:~$ cd test
 user@host:~/test$ █
-{% endccb %}
+```
 
 ---
 
 `rm` - (shorthand for “remove”) permanently deletes files from your computer. It doesn’t move them to the recycling bin, it just obliterates them. `rmdir` functions exactly the same, except with directories.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ rm [FILE]
 user@host:~$ rmdir [DIRECTORY]
-{% endccb %}
+```
 
 ---
 
@@ -135,7 +135,7 @@ user@host:~$ rmdir [DIRECTORY]
 
 Moving files:
 
-{% ccb lang:bash %}
+```bash
 user@host:~/test$ mkdir test2 test3
 user@host:~/test$ ls
 test2   test3
@@ -143,15 +143,15 @@ user@host:~/test$ mv test2 test3 # MOVES TEST2 INTO TEST3
 user@host:~/test$ cd test3
 user@host:~/test3$ ls
 test2
-{% endccb %}
+```
 
 Renaming files:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ mv file1.txt file2.txt # file2.txt DOES NOT EXIST
 user@host:~$ cat file1.txt
 cat: file1.txt: No such file or directory
-{% endccb %}
+```
 
 ---
 
@@ -169,21 +169,21 @@ cat: file1.txt: No such file or directory
 
 `&&` -  allows you to execute another command after the first is executed successfully.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ echo "Hello" && echo "Hi"
 Hello
 Hi
-{% endccb %}
+```
 
 ---
 
 `$` -  allows you to use and set environment variables. Some variables such as `$USER`, `$PWD`, `$HOME`, `$UID`, `$HOSTNAME`, `$SHELL` are already set. You can change and create custom environmental variables by using the syntax:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ export MY_DIRECTORY = /home/user/test
 user@host:~$ echo $MY_DIRECTORY
 /home/user/test
-{% endccb %}
+```
 
 **Important**: Do not declare a new environmental variable with $ in it.
 
@@ -191,9 +191,9 @@ user@host:~$ echo $MY_DIRECTORY
 
 `|` - referred to as a “pipe”. The pipe allows you to use the output of one command as input for another command.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ ls -al | grep "txt"
-{% endccb %}
+```
 
  The command above lists the current directory, and then uses the output of that command for a command named `grep`. `grep` allows us to filter and reveal files with the string `"txt"` within their name.
 
@@ -201,9 +201,9 @@ user@host:~$ ls -al | grep "txt"
 
 `chown` - (short for “change owner”) allows you to change the owner of a file or directory.
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ chown [USER]:[GROUP] [FILE] # GROUP IS OPTIONAL
-{% endccb %}
+```
 
 ---
 
@@ -211,9 +211,9 @@ user@host:~$ chown [USER]:[GROUP] [FILE] # GROUP IS OPTIONAL
 
 Permissions for a user are defined by a **permission flag**. This flag shows who can read, write and/or execute the code. When you list files using `ls -al` you get outputs like these:
 
-{% ccb lang:text %}
+```text
 -rwxrw-r--
-{% endccb %}
+```
 
 Let's analyze this:
 
@@ -226,9 +226,9 @@ Another example: a `-rwxrwxrwx` flag means that everyone on the system can read,
 
 Here is the syntax for `chmod`:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ chmod [FLAGS] [USERTYPE][-+=][PERMISSIONS] [FILE]
-{% endccb %}
+```
 
 `[USERTYPE]` can be:
 
@@ -253,12 +253,12 @@ user@host:~$ chmod [FLAGS] [USERTYPE][-+=][PERMISSIONS] [FILE]
 
 Example usages:
 
-{% ccb lang:bash %}
+```bash
 chmod g=r myfile.sh # GROUPS CAN ONLY READ
 chmod a+rx myfile.sh # EVERYONE CAN READ AND EXECUTE
 chmod -w myfile.sh # EVERYONE CAN NO LONGER WRITE
 chmod u+rwx,g-x myfile.sh # OWNER CAN READ, WRITE AND EXECUTE WHILST GROUPS CAN NO LONGER EXECUTE
-{% endccb %}
+```
 
 ---
 

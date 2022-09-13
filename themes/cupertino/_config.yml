@@ -64,15 +64,13 @@ nav:
     GitHub: https://github.com/htpa-tsa
     Discord: https://discord.gg/mckKe4bSPz
     Remind: https://www.remind.com/join/htpatsa
-    Search: /search
-
 # footer items
 footer:
   # the title
   BLOG:
     # the items after the title, display as links
     Archives: /archives
-    about: /about
+    About: /about
     Presentations: /presentations
     Tags: /tags
     Categories: /categories

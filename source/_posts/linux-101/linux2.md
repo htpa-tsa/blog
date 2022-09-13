@@ -15,9 +15,9 @@ To start, let's open the terminal. In Kali, a GUI button which has a `>_` symbol
 
 You should be getting an odd textbox that looks like this:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ █
-{% endccb %}
+```
 
 <sub>Note: Not all distros have this format. Some are formatted like `[user@host ~]$` or `(user@host)-[~]$`, and some could just be a `user$`.</sub>
 
@@ -35,34 +35,34 @@ If you want to change your PS1, learn more [here](https://linuxconfig.org/bash-p
 
 Let’s run our first command:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ pwd
-{% endccb %}
+```
 
 You should be getting an output that looks something like:
 
-{% ccb lang:bash %}
+```bash
 /home/user
-{% endccb %}
+```
 
 The `pwd` command stands for “present working directory”, and requests the system for information regarding what folder you are currently accessing (Note: It's good to imagine the terminal as a physical entity, working its way through folders with commands). The **directory** is simply the path of files you need to take to reach the folder you are currently in, like street directions. `Kali` is the name of the default user, and most files you create in the GUI are located here, such as the `Desktop` and `Downloads` folder. **The root directory of Linux is** `/`.
 
 If a command has finished running, it will create a newline and the prompt will come back:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ pwd
 /home/user
 user@host:~$ █
-{% endccb %}
+```
 
 This is perfectly normal. However, sometimes a command will do this:
 
-{% ccb lang:bash %}
+```bash
 user@host:~$ nc 10.0.0.1
 ‎
 ‎
 ‎
-{% endccb %}
+```
 
 This state is called a _hung_ or _frozen_ terminal. To interrupt or exit the operation, press `Ctrl + C` or `Delete`.
 
@@ -72,10 +72,10 @@ Note that although your commands may run, they may not always return an output. 
 
 A single command will usually look like this:
 
-{% ccb lang:bash %}
+```bash
 command -f arguments # SINGLE CHARACTER
 command --flag arguments # MULTI-CHARACTER
-{% endccb %}
+```
 
 There are two types of commands:
 
