@@ -18,17 +18,8 @@
 }
 
 .hero .large {
-    font-size: 128px;
+    font-size: 7vw;
     color: var(--black-2);
     margin: 0;
     transition: font-size 0.5s;
-}
-
-@media screen and (max-width: 800px) {
-    .hero .sub {
-        font-size: 16px;
-    }
-    .hero .large {
-        font-size: 84px;
-    }
 }

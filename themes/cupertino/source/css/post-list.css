@@ -163,8 +163,13 @@
 }
 
 .post-list.archives .post-list-item .cover-img {
-  height: initial;
-  min-width: 180px;
-  width: 20vw;
+  width: 300px;
+  height: 175px;
   border-radius: 16px;
+  object-fit: cover;
+}
+
+.post-list.archives .post-list-item .content {
+  padding: 32px;
+  width: 450px;
 }

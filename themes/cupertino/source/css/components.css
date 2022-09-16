@@ -3,29 +3,36 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 800px;
     margin: auto;
-    padding: 0 16px;
 }
 
 .card-grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
     .card-grid {
         max-width: 800px;
     }
+    .card-grid-2 {
+        max-width: 800px;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .card-grid {
         grid-template-columns: 1fr 1fr;
+    }
+    .card-grid-2 {
+        grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width: 600px) {
     .card-grid {
         display: block;
+        padding: 0;
     }
 }
 
@@ -62,7 +69,7 @@
     margin-right: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .card:nth-child(2n-1) {
         margin-left: 0;
         margin-right: 8px;
@@ -108,12 +115,14 @@
     color: var(--black);
     text-decoration: none;
     padding: 0;
+    margin: 0;
 }
 
 .card .description {
     font-size: 15px;
     color: var(--black-1);
     padding: 0;
+    margin: 0;
 }
 
 .card .actions {
@@ -131,6 +140,10 @@
     justify-content: flex-end;
 }
 
+.card-grid-2 .card {
+    margin: 0;
+}
+
 .actions .action-button-primary {
     background-color: var(--blue);
     color: var(--white-txt-on-blue-bg);
@@ -138,6 +151,7 @@
     border-radius: 32px;
     text-decoration: none;
     transition: 0.5s;
+    margin-left: 3px;
 }
 
 .actions .action-button-primary:hover {
@@ -151,22 +165,22 @@
 
 .badge {
     --color: var(--link);
-    font-size: 16px;
     border: 2px solid var(--color);
     color: var(--color);
-    padding: 0 8px;
-    border-radius: 24px;
+    padding: 4px 12px;
+    border-radius: 32px;
+    text-decoration: none;
 }
 
-.badge.warning {
+.badge.yellow {
     --color: #fdc008;
 }
 
-.badge.secondary {
+.badge.grey {
     --color: #6c7781;
 }
 
-.badge.success {
+.badge.green {
     --color: #31b14e;
 }
 
@@ -196,14 +210,4 @@
 
 .text-capitalize {
     text-transform: capitalize;
-}
-
-.flex-container {
-    display: flex; 
-    align-items: center;
-    justify-content: center; 
-    margin: auto;
-    max-width: 800px;
-    gap: 2rem;
-    padding: 1rem 0;
 }

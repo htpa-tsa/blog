@@ -3,7 +3,13 @@ body {
 }
 
 .post {
-  margin: 128px 0;
+  margin: 128px 3rem 3rem 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .post {
+    margin: 128px 1.5rem 1.5rem 1.5rem;
+  }
 }
 
 .meta .categories {

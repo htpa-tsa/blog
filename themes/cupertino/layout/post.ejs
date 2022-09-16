@@ -1,3 +1,5 @@
+<script src="https://kit.fontawesome.com/129342a70b.js" crossorigin="anonymous"></script>
+
 <% if (theme.search == true && page.type == 'search') { %>
     <%- partial('_partial/search') %>
 <% } else if (page.type == 'tags') { %>
@@ -23,7 +25,7 @@
         </div>
         <% } %>
 
-        <h2 class="title"><%= page.title %></h2>
+        <h2 class="title"> <%- page.fontawesome %> <%= page.title %></h2>
     </div>
 
     <div class="divider"></div>
@@ -55,19 +57,6 @@
     <% } %>
 
     <% if (!page.no_comments) { %>
-        <% if (config.waline) { %>
-        <div class="container">
-            <div id="waline"></div>
-            <script>
-                new Waline({
-                    el: "#waline",
-                    <% for (const i in config.waline) { %>
-                    <%- i %>: <%- config.waline[i] %>,
-                    <% } %>
-                });
-            </script>
-        </div>
-        <% } %>
         <% if (config.giscus) { %>
         <%- config.giscus %>
         <% } %>

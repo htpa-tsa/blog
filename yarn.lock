@@ -743,7 +743,7 @@
     "prismjs" "^1.17.1"
     "strip-indent" "^3.0.0"
 
-"hexo@^6.2.0":
+"hexo@^6.3.0":
   "integrity" "sha512-4Jq+rWd8sYvR1YdIQyndN/9WboQ/Mqm6eax8CjrjO+ePFm2oMVafSOx9WEyJ42wcLOHjfyMfnlQhnUuNmJIpPg=="
   "resolved" "https://registry.npmjs.org/hexo/-/hexo-6.3.0.tgz"
   "version" "6.3.0"
@@ -1641,3 +1641,15 @@
   "integrity" "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw=="
   "resolved" "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz"
   "version" "2.2.0"
+
+"yaml@0.2.x":
+  "integrity" "sha512-LzdhmhritYCRww8GLH95Sk5A2c18ddRQMeooOUnqWkDUnBbmVfqgg2fXH2MxAHYHCVTHDK1EEbmgItQ8kOpM0Q=="
+  "resolved" "https://registry.npmjs.org/yaml/-/yaml-0.2.3.tgz"
+  "version" "0.2.3"
+
+"yaml2json@^1.0.2":
+  "integrity" "sha512-SZSrFjBc5m3qRLgnnFnHGLQlijAedRO/TSrtezy4z9fUliIBhum/mkvD9bF63fL8/Nae5kURoC2z6wZZG6+bdQ=="
+  "resolved" "https://registry.npmjs.org/yaml2json/-/yaml2json-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "yaml" "0.2.x"
