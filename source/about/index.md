@@ -110,7 +110,8 @@ Jason:
           - https://enscribe.dev/
           - https://github.com/jktrn/
     badge:
-        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
+        type: green
+        text: <span title="Everything"><i class="fa-solid fa-face-smile"></i></span>
 James:
     description: <i class="fa-solid fa-receipt"></i> Secretary
     image: /asset/about/james.jpg

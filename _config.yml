@@ -103,5 +103,5 @@ theme: cupertino
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/htpa-tsa/htpa-tsa.github.io
+  repo: https://github.com/htpa-tsa/htpatsa.com
   branch: main

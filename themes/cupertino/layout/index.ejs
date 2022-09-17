@@ -10,19 +10,25 @@
     </div>
 
     <div style="padding:10rem 0">
-    <h2 class="section-title" style="margin-bottom:3rem"><i class="fa-solid fa-circle-info"></i> About Us</h2>
-    <p style="font-size: 15px; line-height: 1.725; font-weight: 400;">Established at the height of the COVID-19 pandemic, the <abbr title="Harbor Teacher Preparation Academy">HTPA</abbr> Technology Student Association provides students with plentiful exposure, resources, and support within STEM-based fields, with a focus on autodidacticism as an approach to fulfill personal interests. The club's participation in competitions throughout its initial year of inception brought much success in <b>game development</b> and <b>cybersecurity</b>, acquiring second place at the state level and finalist status at the national level, respectively. Due to the lack of California state advisory throughout the 2021-2022 school year, HTPA TSA was not able to register for state/national-level competitions; however, they have sought after various forms of competition other than those held by the official Technology Student Association.</p>
+        <h2 class="section-title" style="margin-bottom:3rem"><i class="fa-solid fa-circle-info"></i> About Us</h2>
+        <p style="font-size: 15px; line-height: 1.725; font-weight: 400;">Established at the height of the COVID-19
+            pandemic, the <abbr title="Harbor Teacher Preparation Academy">HTPA</abbr> Technology Student Association
+            provides students with plentiful exposure, resources, and support within STEM-based fields, with a focus on
+            autodidacticism as an approach to fulfill personal interests. The club's participation in competitions
+            throughout its initial year of inception brought much success in <b>game development</b> and
+            <b>cybersecurity</b>, acquiring second place at the state level and finalist status at the national level,
+            respectively.</p>
 
-    <div class="card" style="margin:3rem 0">
-        <div class="content" style="text-align:center">
-            <b></b><a href="/about/">Read more about us here!</a></b>
+        <div class="card" style="margin:3rem 0">
+            <div class="content" style="text-align:center">
+                <b></b><a href="/about/">Read more about us here!</a></b>
+            </div>
         </div>
-    </div>
     </div>
 
     <h2 class="section-title" style="margin-bottom:3rem"><i class="fa-solid fa-book"></i> Latest Posts</h2>
     <% } %>
-        
+
     <div class="post-list">
         <% page.posts.each(function (post) { %>
         <article class="post-list-item">
@@ -35,9 +41,9 @@
                 <div class="content">
                     <% if (post.categories && post.categories.length) { %>
                     <div class="categories<%= theme.uppercase_categories ? ' text-uppercase' : '' %>">
-                    <% post.categories.forEach((category) => { %>
+                        <% post.categories.forEach((category) => { %>
                         <span><%= category.name %></span>
-                    <% }) %>
+                        <% }) %>
                     </div>
                     <% } %>
                     <div class="title">
