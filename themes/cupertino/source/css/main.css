@@ -37,7 +37,12 @@ a:visited {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.container-index {
+    max-width: 800px;
     margin: auto;
     padding: 0 3rem;
 }
