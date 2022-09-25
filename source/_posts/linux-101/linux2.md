@@ -36,6 +36,8 @@ If you want to set Ubuntu as your default shell, you can press <kbd>Ctrl</kbd> +
     <figcaption>Setting Ubuntu as Default Shell</figcaption>
 </figure>
 
+For Mac users, your default terminal is already a shell! Just open the Terminal app and you're good to go.
+
 You should be getting an odd textbox that looks like this:
 
 ```bash
