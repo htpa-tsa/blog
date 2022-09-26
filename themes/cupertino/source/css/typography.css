@@ -34,3 +34,16 @@ code {
     padding: 2px 4px;
     border-radius: 4px;
 }
+
+kbd {
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+    font-family: "JetBrains Mono";
+    vertical-align: baseline;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px 3px 4px;
+    padding: 0 5px;
+    border-radius: 4px;
+  }

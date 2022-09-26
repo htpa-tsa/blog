@@ -14,6 +14,8 @@ man command
 command --help
 ```
 
+Also note that when pasting commands, you should be using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> instead of just <kbd>Ctrl</kbd> + <kbd>V</kbd>.
+
 ### Essential Commands
 
 Here are the most common and important commands that you should memorize if you want to use terminal and access the shell:

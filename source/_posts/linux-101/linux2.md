@@ -13,9 +13,19 @@ Always remember: Although the terminal of a completely foreign operating system 
 
 To start, let's get a shell running on your computer.
 
-For Windows users, you can do this with "Windows Subsystem for Linux". Download [Ubuntu](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV) from the Microsoft Store. Once installed, you can open it like any other app through the Start menu by typing "Ubuntu".
+For Windows users, you can do this by installing "Windows Subsystem for Linux". Start with <kbd>⊞ Win</kbd> -> "`cmd`", and right-click "Command Prompt" -> "Run as administrator". Paste the following command into the terminal:
 
-On your first open of Ubuntu, you will be prompted to create a username and password. This is the same as creating a new account on your computer. Once you have created your account, you will be taken to a shell prompt:
+```ps
+wsl --install
+```
+
+To learn more about installing Linux on Windows with WSL, read [this article](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+Once it's finished installing, restart your computer.
+
+Afterwards, download the [Ubuntu](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV) distribution from the Microsoft Store. Once installed, open it through <kbd>⊞ Win</kbd> -> "Ubuntu".
+
+On your first open of Ubuntu, you will be prompted to create a username and password. This is the same as creating a new account on your computer. **Note that your password won't appear to be typed because it's hidden, but don't worry - it's still being typed out**. Once you've created your account, you will be taken to a shell prompt:
 
 <figure>
     <img src="/asset/linux-101/ubuntu.png" alt="WSL Session">
@@ -87,7 +97,7 @@ user@host:~$ nc 10.0.0.1
 ‎
 ```
 
-This state is called a "hung" or "frozen" terminal. To interrupt or exit the operation, press `Ctrl + C` or `Delete`.
+This state is called a "hung" or "frozen" terminal. To interrupt or exit the operation, press <kbd>Ctrl</kbd> + <kbd>C</kbd> or <kbd>Delete</kbd>.
 
 Note that although your commands may run, they may not always return an output. For example, creating a file with `touch` executes perfectly fine, but doesn't tell the user that it has succeeded; it will only return **errors**. 
 
