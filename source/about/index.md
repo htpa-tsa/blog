@@ -83,24 +83,8 @@ What is *autodidactism*? Simply put, it's the philosophy behind this club. It's 
 ### <i class="fa-solid fa-people-group"></i> Board
 
 {% grid %}
-Robee:
-    description: <i class="fa-solid fa-chess-king"></i> President
-    image: /asset/about/robee.png
-    button:
-        text: <i class="fa-solid fa-envelope"></i>
-        link: mailto:robeeds14@gmail.com
-    badge:
-        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
-Evan:
-    description: <i class="fa-solid fa-chess-queen"></i> Vice President
-    image: /asset/about/evan.png
-    button:
-        text: <i class="fa-brands fa-instagram"></i>
-        link: https://www.instagram.com/te_evan/
-    badge:
-        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
 Jason:
-    description: <i class="fa-solid fa-gem"></i> Treasurer
+    description: <i class="fa-solid fa-chess-king"></i> President
     image: /asset/about/jason.jpg
     button:
         text:
@@ -110,17 +94,41 @@ Jason:
           - https://enscribe.dev/
           - https://github.com/jktrn/
     badge:
-        type: green
-        text: <span title="Everything"><i class="fa-solid fa-face-smile"></i></span>
-James:
-    description: <i class="fa-solid fa-receipt"></i> Secretary
-    image: /asset/about/james.jpg
+        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
+    badge3:
+        type: yellow
+        text: <span title="Competitive Programming"><i class="fa-solid fa-code"></i></span>
+
+Joon: 
+    description: <i class="fa-solid fa-chess-king"></i> Vice President
+    image: /asset/about/joon.jpg
+    button:
+        text: <i class="fa-solid fa-envelope"></i>
+        link: mailto:hwangjoonh@gmail.com
+    badge:
+        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
+Evan:
+    description: <i class="fa-solid fa-gem"></i> Treasurer
+    image: /asset/about/evan.png
     button:
         text: <i class="fa-brands fa-instagram"></i>
-        link: https://www.instagram.com/i.amjames.g/
+        link: https://www.instagram.com/te_evan/
+    badge:
+        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
+Aidan:
+    description: <i class="fa-solid fa-receipt"></i> Secretary
+    image: /asset/about/aidan.jpg
+    button:
+        text: <i class="fa-brands fa-discord"></i>
+        link: https://discordapp.com/users/836116834184855602
     badge:
         type: grey
         text: <span title="Game Design"><i class="fa-brands fa-unity"></i></span>
+    badge2:
+        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
+    badge3:
+        type: yellow
+        text: <span title="Competitive Programming"><i class="fa-solid fa-code"></i></span>
 Caleb:
     description: <i class="fa-solid fa-paragraph"></i> Reporter
     image: /asset/about/caleb.jpg
@@ -130,12 +138,13 @@ Caleb:
     badge:
         type: grey
         text: <span title="Game Design"><i class="fa-brands fa-unity"></i></span>
-Joon: 
+Jude:
     description: <i class="fa-solid fa-hand-fist"></i> Sergeant-at-Arms
-    image: /asset/about/joon.jpg
+    image: /asset/about/jude.jpg
     button:
-        text: <i class="fa-solid fa-envelope"></i>
-        link: mailto:hwangjoonh@gmail.com
+        text: <i class="fa-brands fa-discord"></i>
+        link: https://discordapp.com/users/391656020071546881
     badge:
-        text: <span title="Cybersecurity"><i class="fa-solid fa-shield-halved"></i></span>
+        type: grey
+        text: <span title="Game Design"><i class="fa-brands fa-unity"></i></span>
 {% endgrid %}
