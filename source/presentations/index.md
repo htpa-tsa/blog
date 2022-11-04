@@ -14,8 +14,12 @@ Week 2 (10/17/22):
     description: Group Articles, Presentations
     image: https://static.vecteezy.com/system/resources/previews/002/917/365/original/thinking-about-new-idea-during-using-toilet-web-template-cartoon-style-screen-web-template-for-mobile-phone-landing-page-template-ui-web-mobile-app-poster-banner-flat-illustration-vector.jpg
     button:
-        text: VIEW
-        link: /asset/presentations/week2.pdf
+        text:
+            - VIEW
+            - SUBMIT
+        link: 
+            - /asset/presentations/week2.pdf
+            - /presentations/submit
     badge:
         type: blue
         text: <span title="Homework"><i class="fa-solid fa-book"></i></span>

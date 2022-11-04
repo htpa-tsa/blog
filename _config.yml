@@ -105,3 +105,6 @@ deploy:
   type: git
   repo: https://github.com/htpa-tsa/htpatsa.com
   branch: main
+
+alias:
+  presentations/submit/index.html: https://forms.gle/xqwb9KKvtuXQ2k9U9
