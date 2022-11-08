@@ -2,8 +2,9 @@
 title: "Linux 101.1: About Linux"
 date: 2022-09-25 10:00:00
 categories:
+- blog
 - linux-101
-permalink: /linux-101/01/
+permalink: /blog/linux-101/01/
 cover_image: /asset/linux-101/thumbnail-1.jpg
 ---
 

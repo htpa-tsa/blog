@@ -2,8 +2,9 @@
 title: "Linux 101.3: Command Cheatsheet"
 date: 2022-09-25 10:00:02
 categories:
+- blog
 - linux-101
-permalink: /linux-101/03/
+permalink: /blog/linux-101/03/
 cover_image: /asset/linux-101/thumbnail-3.png
 ---
 

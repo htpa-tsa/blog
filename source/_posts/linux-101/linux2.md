@@ -2,8 +2,9 @@
 title: "Linux 101.2: The Terminal"
 date: 2022-09-25 10:00:01
 categories:
+- blog
 - linux-101
-permalink: /linux-101/02/
+permalink: /blog/linux-101/02/
 cover_image: /asset/linux-101/thumbnail-2.jpg
 ---
 

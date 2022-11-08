@@ -18,7 +18,7 @@ What is *autodidactism*? Simply put, it's the philosophy behind this club. It's 
 <div class="container">
     <div class="card" style="margin:0; margin-bottom:1rem">
         <div class="content" style="text-align:center">
-            We meet <b>every Monday</b> in <b>Mrs. Kol's room</b> (1-128). No experience needed!
+            We meet <b>every other Monday</b> in <b>Mrs. Kol's room</b> (1-128). No experience needed!
         </div>
     </div>
     <div class="card-grid-2">
@@ -100,7 +100,7 @@ Jason:
         text: <span title="Competitive Programming"><i class="fa-solid fa-code"></i></span>
 
 Joon: 
-    description: <i class="fa-solid fa-chess-king"></i> Vice President
+    description: <i class="fa-solid fa-chess-queen"></i> Vice President
     image: /asset/about/joon.jpg
     button:
         text: <i class="fa-solid fa-envelope"></i>
