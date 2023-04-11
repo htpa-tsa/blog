@@ -1,5 +1,5 @@
 ---
-title: "Kyra, Danica: Game Development"
+title: "Kyra, Dan: Game Development"
 date: 2022-11-07 10:04:55
 categories:
 - blog

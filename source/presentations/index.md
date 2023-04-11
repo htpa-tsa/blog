@@ -10,6 +10,24 @@ fontawesome: <i class="fa-solid fa-person-chalkboard"></i>
 {% fontawesome %}
 
 {% grid %}
+Week 4 (03/26/23):
+    description: Seizing the Opportunity, Taking the Initiative
+    image: https://static.vecteezy.com/system/resources/previews/003/292/559/non_2x/vision-to-see-opportunity-support-or-empowerment-for-career-vector.jpg
+    button:
+        text: VIEW
+        link: /asset/presentations/week4.pdf
+    badge:
+        type: grey
+        text: <span title="Informational"><i class="fa-solid fa-circle-info"></i></span>
+Week 3 (12/05/22):
+    description: Internal Jeopardy Competition
+    image: https://static.vecteezy.com/system/resources/previews/008/601/858/original/business-competition-flat-illustration-design-free-vector.jpg
+    button:
+        text: VIEW
+        link: /asset/presentations/week3.pdf
+    badge:
+        type: grey
+        text: <span title="Informational"><i class="fa-solid fa-circle-info"></i></span>
 Week 2 (10/17/22):
     description: Group Articles, Presentations
     image: https://static.vecteezy.com/system/resources/previews/002/917/365/original/thinking-about-new-idea-during-using-toilet-web-template-cartoon-style-screen-web-template-for-mobile-phone-landing-page-template-ui-web-mobile-app-poster-banner-flat-illustration-vector.jpg
