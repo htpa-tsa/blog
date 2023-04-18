@@ -58,3 +58,4 @@ Once you have gotten used to JavaScript, try to learn TypeScript:
 - [8-Hour Youtube Video](https://www.youtube.com/watch?v=Qqx_wzMmFeA)
 - [1-Hour Youtube Video](https://www.youtube.com/watch?v=W6NZfCO5SIk)
 - [Other Info](https://mikkegoes.com/learn-to-code-for-free/)
+  

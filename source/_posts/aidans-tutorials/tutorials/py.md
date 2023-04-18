@@ -58,7 +58,7 @@ Once you start thinking about a first project to get started with Python, you ha
 - [Cheatsheet #2](https://quickref.me/python.html)
 - [CheatSheet #3](https://www.pythoncheatsheet.org/cheatsheet/basics)
 - [VS Code Intro to Python](https://code.visualstudio.com/docs/python/python-tutorial)
-- [1 Hour Youtube Video](https://www.youtube.com/watch?v=kqtD5dpn9C8)
-- [5 House Youtube Video](https://www.youtube.com/watch?v=eWRfhZUzrAc)
+- [1-Hour Youtube Video](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+- [5-Hour Youtube Video](https://www.youtube.com/watch?v=eWRfhZUzrAc)
 - [Other Info](https://mikkegoes.com/learn-to-code-for-free/)
   
